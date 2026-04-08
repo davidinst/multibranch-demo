@@ -2,8 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Login Feature Build') {
             steps {
+                echo "Building Login Feature..."
                 echo "Building main branch..."
                 echo "Version 2"
             }
